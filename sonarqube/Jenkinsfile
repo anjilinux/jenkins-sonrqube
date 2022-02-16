@@ -6,7 +6,7 @@ pipeline{
     stages{
        stage('GetCode'){
             steps{
-                git ''
+                git 'https://github.com/rritsoft/jenkins-sonrqube/edit/main/sonarqube/Jenkinsfile'
             }
          }        
        stage('Build'){
